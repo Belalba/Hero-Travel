@@ -245,3 +245,36 @@ border: none;
     width: 500px;
     height: 300px;
 }
+
+
+@media screen and (max-width: 600px) {
+    nav{
+      
+        flex-direction: column;
+    }
+    .nav > ul{
+       
+        flex-direction: column;
+    }
+   .banner{
+    padding: 20px;
+   }
+   .banner-form, .banner-div, .section, .second-img, .third-img{
+    flex-direction: column;
+   }
+   .section-style{
+    width: 300px;
+   }
+   .destanition-img-src{
+    width: 400px;
+   }
+   .destanition-title{
+    font-size: 20px;
+   }
+   .destanition-description{
+    width: 300px;
+   }
+
+    }
+
+
