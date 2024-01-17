@@ -68,7 +68,7 @@ nav li a{
 }
 .banner-form{
 
-    display: flex;
+   
     gap: 10px;
     border-radius: 10px;
     padding: 10px 50px 10px 10px;
@@ -437,9 +437,36 @@ color: #FFF;
 border: none;
 text-align: center;
 
+
 }
+.subcrib-box{
+    border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+width: 200px;
+height: 100px;
+padding: 40px;
+position: relative;
+bottom: 100px;
+left: 380px;
+
+
+}
+
+.subcrib-box-title{
+    
+    font-weight: 600;
+    text-align: center;
+   margin-bottom: 40px;
+     
+}
+.subcrib-box-description{
+    text-align: center;
+}
+
+
 .footer{
-    margin: 100px 100px;
+    margin: 200px 100px;
     background: rgba(19, 19, 24, 0.05);
     padding: 0 100px;
 
@@ -502,7 +529,7 @@ text-align: center;
    .banner{
     padding: 20px;
    }
-   .banner-form, .banner-div, .section, .second-img, .third-img, .chose-us-style{
+   .banner-form, .banner-div, .section, .second-img, .third-img, .chose-us-style, .place-style, .subcrib, .footer-style{
     flex-direction: column;
    }
    .section-style{
@@ -526,7 +553,25 @@ text-align: center;
    .chose-us-descrition, .card-3{
     width: 300px;
    }
-
+   .subcrib-pic{
+    width: 500px;
+   }
+   .subcrib-box{
+    left: 200px;
+   }
+   .footer-style{
+    padding-left: 20px;
+   }
+   .footer-description{
+    width: 200px;
+   }
+   .footer-icon{
+    padding-left: 100px;
+   }
+   .place-pic{
+    width: 300px;
+   }
+    
     }
 
 
